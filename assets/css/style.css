@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-section {
+  width: 480px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.login-header{
+  background: #496c98;
+  padding: 12px;
+}
+
+
+.login-header h1,h2{
+  color: #FFF;
+}
+
+.lock-img{
+    display: inline-block;
+    position: sticky;
+    float: right;
+}
+
+.login-header h1{
+  font-size: 1.5em;
+}
+
+.login-header h2{
+  font-size: 1em;
+}
+
+.welcome{
+  color: #fff
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #5d71a7;
+  max-width: 480px;
+  margin: 0 auto 100px;
+  padding: 18px;
+  text-align: center;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background:#2196F3;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #2068a0;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #fff;
+  font-size: 12px;
+}
+.form .message a {
+  text-decoration: none;
+}
+
+.result{
+  padding: 12px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 12px;
+}
+
+body {
+  background: #5b67cc; 
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
